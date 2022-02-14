@@ -1,5 +1,5 @@
 node_modules/*
 db.json
-.deploy_git/*
+.deploy_git
 public/*
 package-lock.json
