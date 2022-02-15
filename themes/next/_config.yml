@@ -52,7 +52,7 @@ language_switcher: true
 
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
-  #since: 2015
+  since: 2022
 
   # Icon between year and copyright info.
   icon:
@@ -67,7 +67,7 @@ footer:
   copyright:
 
   # Powered by Hexo & NexT
-  powered: true
+  powered: false
 
   # Beian ICP and gongan information for Chinese users. See: https://beian.miit.gov.cn, http://www.beian.gov.cn
   beian:
@@ -87,8 +87,8 @@ footer:
 # CC licenses are available in 39 languages, you can find the specific and correct abbreviation you need on https://creativecommons.org
 creative_commons:
   license: by-nc-sa
-  sidebar: false
-  post: false
+  sidebar: true
+  post: true
   language:
 
 
@@ -117,11 +117,20 @@ darkmode: false
 # External url should start with http:// or https://
 menu:
   home: / || fa fa-home
-  favorite: /favorite || circle-star
+  Linux: /linux || fa fa-home
+  Java: /java || fa fa-home
+  'Spring & SpringCloud': /spring || fa fa-cloud
+  'SQL & NoSQL': /sql || fa fa-database
+  MessageQueue: /mq || fa fa-home
+  JavaScript: /javascript || fa fa-home
+  Node.js: /nodejs || fa fa-home
+  'Vue & React': /vue || fa fa-home
+  Nginx: /nginx || fa fa-home
+  #favorite: /favorite || circle-star
   #about: /about/ || fa fa-user
   #tags: /tags/ || fa fa-tags
   #categories: /categories/ || fa fa-th
-  archives: /archives/ || fa fa-archive
+  #archives: /archives/ || fa fa-archive
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
@@ -164,11 +173,11 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: /images/avatar.gif
+  url: /images/avatar.png
   # If true, the avatar will be dispalyed in circle.
-  rounded: false
+  rounded: true
   # If true, the avatar will be rotated with the cursor.
-  rotated: true
+  rotated: false
 
 # Posts / Categories / Tags in sidebar.
 site_state: true
@@ -180,7 +189,8 @@ site_state: true
 social:
   GitHub: https://github.com/gegeza || fab fa-github
   E-Mail: mailto:465119455@qq.com || fa fa-envelope
-  #Weibo: https://weibo.com/yourname || fab fa-weibo
+  Weibo: https://weibo.com/gegez7 || fab fa-weibo
+  CSDN: https://blog.csdn.net/zeng465119455 || fab fa-instagram
   #Google: https://plus.google.com/yourname || fab fa-google
   #Twitter: https://twitter.com/yourname || fab fa-twitter
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
@@ -277,7 +287,7 @@ reward:
 follow_me:
   #Twitter: https://twitter.com/username || fab fa-twitter
   #Telegram: https://t.me/channel_name || fab fa-telegram
-  #WeChat: /images/wechat_channel.jpg || fab fa-weixin
+  WeChat: /images/wechat_channel.jpg || fab fa-weixin
   #RSS: /atom.xml || fa fa-rss
 
 # Related popular posts
@@ -373,7 +383,7 @@ back2top:
 
 # Reading progress bar
 reading_progress:
-  enable: false
+  enable: true
   # Available values: top | bottom
   position: top
   color: "#37c6c0"
@@ -390,8 +400,8 @@ bookmark:
 
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
-  enable: false
-  permalink: https://github.com/yourname
+  enable: true
+  permalink: https://github.com/gegeza
   title: Follow me on GitHub
 
 
@@ -712,7 +722,7 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi_count:
-  enable: false
+  enable: true
   total_visitors: true
   total_visitors_icon: fa fa-user
   total_views: true
