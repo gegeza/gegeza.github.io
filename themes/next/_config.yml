@@ -117,23 +117,16 @@ darkmode: false
 # External url should start with http:// or https://
 menu:
   home: / || fa fa-home
-  Linux: /linux || fa fa-home
-  Java: /java || fa fa-home
-  'Spring & SpringCloud': /spring || fa fa-cloud
-  'SQL & NoSQL': /sql || fa fa-database
-  MessageQueue: /mq || fa fa-home
-  JavaScript: /javascript || fa fa-home
-  Node.js: /nodejs || fa fa-home
-  'Vue & React': /vue || fa fa-home
-  Nginx: /nginx || fa fa-home
-  #favorite: /favorite || circle-star
-  #about: /about/ || fa fa-user
-  #tags: /tags/ || fa fa-tags
-  #categories: /categories/ || fa fa-th
-  #archives: /archives/ || fa fa-archive
-  #schedule: /schedule/ || fa fa-calendar
-  #sitemap: /sitemap.xml || fa fa-sitemap
-  #commonweal: /404/ || fa fa-heartbeat
+  Linux: /categories/linux || fa fa-home
+  Java: /categories/java || fa fa-home
+  'Spring & SpringCloud': /categories/spring || fa fa-cloud
+  'SQL & NoSQL': /categories/sql || fa fa-database
+  MessageQueue: /categories/mq || fa fa-home
+  JavaScript: /categories/javascript || fa fa-home
+  Node.js: /categories/nodejs || fa fa-home
+  'JavaScript & Vue': /categories/vuejs || fa fa-home
+  Nginx: /categories/nginx || fa fa-home
+  Others: /categories/others || fa fa-beer
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
