@@ -109,3 +109,10 @@ deploy:
   type: git
   repo: git@github.com:gegeza/gegeza.github.io.git
   branch: blog
+
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: true
+  exclude_codeblock: true

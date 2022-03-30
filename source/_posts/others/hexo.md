@@ -74,6 +74,25 @@ theme: next
 ```styl
 .post-body p { text-indent: 2em; }
 ```
+###### 站点单词统计配置
+```sh
+#安装插件hexo-symbols-count-time
+npm install hexo-symbols-count-time
+#修改hexo/_config.yml
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: true
+  exclude_codeblock: true
+#修改hexo/themes/next/_config.yml
+symbols_count_time:
+  separated_meta: true
+  item_text_post: true
+  item_text_total: false
+  awl: 4
+  wpm: 275
+```
 ###### algolia搜索配置
 待续
 ###### 其它官方配置
