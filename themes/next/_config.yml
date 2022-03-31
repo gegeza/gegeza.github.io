@@ -117,16 +117,16 @@ darkmode: false
 # External url should start with http:// or https://
 menu:
   home: / || fa fa-home
-  Linux: /categories/linux || fa fa-linux
-  Java: /categories/java || fa fa-java
+  Linux: /categories/linux || fab fa-linux
+  Java: /categories/java || fab fa-java
   'Spring & SpringCloud': /categories/spring || fa fa-cloud
   'SQL & NoSQL': /categories/sql || fa fa-database
-  MessageQueue: /categories/mq || fa fa-home
-  JavaScript: /categories/javascript || fa fa-home
+  MessageQueue: /categories/mq || fab fa-facebook-messenger
   Node.js: /categories/nodejs || fa fa-home
-  'JavaScript & Vue': /categories/vuejs || fa fa-home
+  'JavaScript & Vue': /categories/vuejs || fab fa-vuejs
   Nginx: /categories/nginx || fa fa-home
-  Others: /categories/others || fa fa-beer
+  Others: /categories/others || fas fa-plug
+  Tags: /tags || fa fa-tag
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
@@ -894,7 +894,7 @@ vendors:
   # Internal version: 5.13.0
   # fontawesome: //cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css
   # fontawesome: //cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css
-  fontawesome:
+  fontawesome: //cdn.bootcss.com/font-awesome/5.13.0/css/all.css
 
   # MathJax
   # mathjax: //cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js

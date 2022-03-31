@@ -42,8 +42,8 @@ hexo clean
 hexo deploy
 #本地启动hexo服务
 hexo server
-#新建文章（位于source/_posts/test.md）
-hexo new "test"
+#新建文章（默认位于source/_posts/test.md，可通过--path指定路径）
+hexo new [--path=others/hexo.md] "test"
 #新建一个页面（位于source/test/index.md）
 hexo new page "test"
 ```
