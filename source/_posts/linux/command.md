@@ -4,6 +4,7 @@ date: 2022-03-30 19:59:04
 categories:
 - linux
 tags:
+- linux
 ---
 ###### 防火墙相关命令
 ```sh
