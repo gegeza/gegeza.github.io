@@ -120,6 +120,7 @@ menu:
   Linux: /categories/linux || fab fa-linux
   Java: /categories/java || fab fa-java
   'Spring & SpringCloud': /categories/spring || fa fa-cloud
+  GO: /categories/go || fab fa-go
   'SQL & NoSQL': /categories/sql || fa fa-database
   MessageQueue: /categories/mq || fab fa-facebook-messenger
   Node.js: /categories/nodejs || fa fa-home
